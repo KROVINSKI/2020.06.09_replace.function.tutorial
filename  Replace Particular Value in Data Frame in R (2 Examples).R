@@ -48,6 +48,25 @@ print(data)
 # 5  5  E  B f1
 
 
+# NARR: Our example data consists of five rows and four variables. 
+#       The first column is numeric, the second and third columns 
+#       are characters, and the fourth column is a factor.  
+
+
+
+
+
+#********************************
+# 2.0  Example 1: Replace Character or Numeric Values in Data Frame
+#********************************
+
+
+
+
+
+
+
+
 
 
 
