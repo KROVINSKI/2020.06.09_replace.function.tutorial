@@ -14,6 +14,22 @@
 # 3.0  Example 2: Replace Factor Values in Data Frame
 
 
+
+
+
+
+#********************************
+# 1.0  Introduction of Example Data
+#********************************
+ 
+# 
+# Introduction of Example Data
+# The examples of this R programming tutorial are based 
+# on the following example data frame in R:
+# 
+
+
+
 data <- data.frame(x1 = 1:5,
                    x2 = LETTERS[1:5],
                    x3 = c("A", "C", "A", "A", "B"),
@@ -21,6 +37,18 @@ data <- data.frame(x1 = 1:5,
                    stringsAsFactors = FALSE)
 
 data
+print(data)
+# 
+# > print(data)
+# x1 x2 x3 x4
+# 1  1  A  A f1
+# 2  2  B  C f2
+# 3  3  C  A f3
+# 4  4  D  A f2
+# 5  5  E  B f1
+
+
+
 
 
 data1 <- data                      # Replicate Data
